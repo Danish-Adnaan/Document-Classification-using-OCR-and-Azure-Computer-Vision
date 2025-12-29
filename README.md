@@ -4,8 +4,8 @@
 2. Azure Portal → Create Resource → "Computer Vision" →  (Configurations - Region = Southeast Asia) etc -> use Free F0 tier
 3. Copy ENDPOINT and KEY from "Keys and Endpoint"
 4. Create `.env` file: and store them as 
--- AZURE_ENDPOINT=<your-endpoint>
--- AZURE_KEY=<your-key>
+-- AZURE_ENDPOINT= <your-endpoint>
+-- AZURE_KEY= <your-key>
 
 ## Required Libraries
 
