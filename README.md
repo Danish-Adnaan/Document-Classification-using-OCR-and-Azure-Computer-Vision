@@ -1,10 +1,10 @@
 ## Azure Setup
 
 1. Create free Azure account: https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=ai-vision
-2. Azure Portal → Create Resource → "Computer Vision" →  (Configurations - Region = SOutheast Asia) etc -> use Free F0 tier
+2. Azure Portal → Create Resource → "Computer Vision" →  (Configurations - Region = Southeast Asia) etc -> use Free F0 tier
 3. Copy ENDPOINT and KEY from "Keys and Endpoint"
 4. Create `.env` file: and store them as 
--- AZURE_ENDPOINT=https://<region>.api.cognitive.microsoft.com/
+-- AZURE_ENDPOINT=<your-endpoint>
 -- AZURE_KEY=<your-key>
 
 ## Required Libraries
@@ -31,4 +31,4 @@ To run paste this in terminal : python 03_annotate_pdf.py
 
 ## Expected CSV Format
 Form Tracking Number,Part Number,Serial No.,Date
-TRK-3MNM9VYW52,PN-C2P417IW,SN-QTDGGM,31 OCT 2025
+TRK-XXXXXXXXXX,PN-XXXXXXXX,SN-XXXXXX,DD MMM YYYY
