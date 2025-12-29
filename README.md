@@ -30,5 +30,5 @@ To run paste this in terminal : python 03_annotate_pdf.py
 **Output:** `output/annotated.pdf`
 
 ## Expected CSV Format
-Form Tracking Number,Part Number,Serial No.,Date
-TRK-XXXXXXXXXX,PN-XXXXXXXX,SN-XXXXXX,DD MMM YYYY
+##### Form Tracking Number,Part Number,Serial No.,Date : 
+##### TRK-XXXXXXXXXX,PN-XXXXXXXX,SN-XXXXXX,DD MMM YYYY
